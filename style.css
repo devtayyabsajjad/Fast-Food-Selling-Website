@@ -1,0 +1,367 @@
+.one{
+    height: 900px;
+    width: 100%;
+    background-image: url("data/3.png");
+    
+
+    
+    
+}
+.parent{
+    display: flex;
+}
+
+#child{
+    
+    margin-top: 12px;
+}
+#child img{
+   margin-left: 10px;
+}
+#child img:hover{
+    
+   cursor: pointer;
+}
+#child a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+#child a:hover{
+    text-decoration: underline;
+    color: #f64b3c;
+    
+}
+    
+
+.two{
+    height: 600px;
+    width: 100%;
+    background-image:url("data/sh6.png");
+}
+
+#disc{
+    text-align: center;
+    margin-left: 30px;
+}
+#disc h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#bt1{
+    background-color: orangered;
+    width: 45%;
+    height: 40px;
+    color: white;
+    border-color: orangered;
+    border-radius: 25px;
+}
+#bt1:hover{
+    background-color: transparent;
+    color: orangered;
+    
+}
+.chef{
+    text-align: center;
+    padding-top: 70px;
+}
+.chef h2{
+    color: orangered;
+}
+.chef h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.chef p{
+    color:#f64b3c;
+    width: 30%;
+    margin: auto;
+}
+.hed{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.men img{
+    transition: .2s;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.men img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 orangered, 0 6px 20px 0 orangered;
+    cursor: pointer;
+}
+.men h3,p{
+    text-align: center;
+}
+.men h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.three{
+    height: 600px;
+    width: 100%;
+    background-color: orangered;
+}
+#bargar{
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content:space-between;
+}
+#bargar h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+#image img{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#image img:hover{
+    box-shadow: 0 4px 8px 0 orangered, 0 6px 20px 0 orangered;
+}
+#bt2{
+    background-color: white;
+    width: 40%;
+    height: 40px;
+    color: orangered;
+    border-color: white;
+    border-radius: 25px;
+}
+#bt2:hover{
+    background-color: transparent;
+    color: black;
+    
+}
+.four{
+    height: 600px;
+    width: 100%;
+    background-image: url("data/sh6.png");
+}
+.five{
+    height: 600px;
+    width: 100%;
+    background-color: orangered;
+}
+.chef5{
+    text-align: center;
+    padding-top: 70px;
+}
+.chef5 h2{
+    color: white;
+    
+    
+}
+.chef5 h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+.chef5 p{
+    color:white;
+    width: 30%;
+    margin: auto;
+}
+.hed5{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.men5{
+    
+    height: 243px;
+    width: 24%;
+    border: 2px solid white;
+    border-radius: 70%;
+    border-color: white;
+    text-align: center;
+    transition: transform .2s;
+}
+.men5 h1,p{
+    
+    text-align: center;
+    color: white;
+}
+.men5 h1{
+    padding-top: 50px;
+    font-size: 50px;
+
+}
+
+.men5:hover{
+    /* height: 250px;
+    width: 25%; */
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+.six{
+    height: 600px;
+    width: 100%;
+    background-image: url("data/sh6.png");
+    
+}
+#pkg{
+    padding-top: 50px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+#pkg h1{
+    font-size: 50px;
+    color: #f64b3c;
+}
+#pkg h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#pkgf{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pkg1{
+    padding-top: 15px;
+    background-color: white;
+    border-radius: 20px;
+    height: 320px;
+    width: 240px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .2s;
+}
+.pkg1:hover{
+    cursor: pointer;
+    padding-top: 15px;
+    background-color: white;
+    border-radius: 20px;
+    /* height: 340px;
+    width: 250px; */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 orangered, 0 6px 20px 0 orangered;
+   
+}
+#bt3{
+    background-color: orangered;
+    width: 75%;
+    height: 40px;
+    color: white;
+    border-color: orangered;
+    border-radius: 25px;
+}
+#bt3:hover{
+    background-color: transparent;
+    color: orangered;
+    
+}
+.seven{
+    height: 795px;
+    width: 100%;
+    background-image: url("data/Image.png");
+}
+#gp7{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 360px;
+}
+#gp7 h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+#gp7 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+#bt4:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid orangered;
+}
+#sub:hover{
+    border: 1px solid orangered;
+    
+}
+.eight{
+    height: 500px;
+    width: 100%;
+    background-image: url("data/sh6.png");
+}
+#gp8{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 130px;
+}
+#gp8 h3{
+    color: orangered;
+}
+#gp8 h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#gp8 p{
+    color: #f64b3c;
+}
+#gp8 input{
+    background-color: white;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+}
+#gp8 button{
+    width: 140px;
+    height: 40px;
+    background-color: #f64b3c;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -15px;
+    border: none;
+    outline: none;
+}
+.nine{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    
+    
+
+}
+#last{
+    margin-left: 80px;
+}
+#last2{
+    margin-right: 80px;
+}
+#last img:hover{
+    cursor: pointer;
+}
+#header{
+    display: flex;
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+}
+#header h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
